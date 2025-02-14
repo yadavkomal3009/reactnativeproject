@@ -26,7 +26,7 @@ Edit
 sh
 Copy
 Edit
-git clone https://github.com/yadavkomal3009/react-native-assignment.git
+git clone https://github.com/yadavkomal3009/reactnativeproject.git
 cd react-native-assignment
 2️⃣ Install Dependencies
 sh
