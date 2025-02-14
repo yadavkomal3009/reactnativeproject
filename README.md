@@ -1,8 +1,67 @@
-> Why do I have a folder named ".expo" in my project?
-The ".expo" folder is created when an Expo project is started using "expo start" command.
-> What do the files contain?
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
-> Should I commit the ".expo" folder?
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+This is a mobile application built with React Native and Firebase. It includes authentication, API integration, and infinite scrolling.
+
+✨ Features
+✅ Firebase Authentication (Login & Registration)
+✅ API Integration (Listing & Details Pages)
+✅ Infinite Scrolling
+✅ React Navigation
+✅ Optional Language Settings
+
+📂 Project Structure
+bash
+Copy
+Edit
+/react-native-assignment
+│── /assets          # Static assets (images, fonts)
+│── /screens         # App screens (Login, Register, Listing, Details)
+│── /components      # Reusable components
+│── /hooks           # Custom hooks
+│── /utils           # Helper functions
+│── firebase.js      # Firebase config
+│── App.js           # Entry point
+│── package.json     # Dependencies
+│── README.md        # Documentation
+🔧 Setup & Installation
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/your-username/react-native-assignment.git
+cd react-native-assignment
+2️⃣ Install Dependencies
+sh
+Copy
+Edit
+npm install
+3️⃣ Configure Firebase
+Create a Firebase project at Firebase Console.
+Add a Firebase Web App and get the Firebase config.
+Replace the contents of firebase.js with your Firebase credentials.
+4️⃣ Run the Project
+Start Metro bundler:
+sh
+Copy
+Edit
+npx expo start
+Run on Android:
+sh
+Copy
+Edit
+npx expo start --android
+Run on iOS (Mac only):
+sh
+Copy
+Edit
+npx expo start --ios
+📜 Screenshots
+📌 Add screenshots of your app here for better visualization.
+
+🛠 Technologies Used
+React Native - UI framework
+Expo - Simplified development
+Firebase - Authentication & backend
+React Navigation - App navigation
+Axios - API requests
+🤝 Contributing
+Feel free to contribute by creating a Pull Request.
+
