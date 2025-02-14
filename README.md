@@ -53,8 +53,6 @@ sh
 Copy
 Edit
 npx expo start --ios
-📜 Screenshots
-📌 Add screenshots of your app here for better visualization.
 
 🛠 Technologies Used
 React Native - UI framework
